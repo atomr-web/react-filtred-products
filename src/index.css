@@ -1,0 +1,50 @@
+.filtred-product-table {
+    width: 400px;
+    box-sizing: border-box;
+    padding: 10px;
+    border: 1px solid #cecece
+}
+
+.filtred-product-table,
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+
+input[type="search"] {
+    margin-bottom: 10px;
+}
+
+form label {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    cursor: pointer;
+}
+
+input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+.product-table__names {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: bold;
+}
+
+.product-cat-name {
+    color: #cecece;
+}
+
+.product-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.product-row.instack .product-row__name{
+    color: red;
+}
